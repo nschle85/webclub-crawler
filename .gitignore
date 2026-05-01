@@ -1,0 +1,45 @@
+# IDE-Dateien
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebung
+.venv/
+env/
+venv/
+ENV/
+
+# Debug- und Temporärdateien (Screenshots, HTML-Dumps, Logs)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.html
+*.txt
+*.log
+after_login_attempt.png
+after_manual_login.html
+after_manual_login.png
+debug_ajax_response.txt
+debug_error_page.html
+debug_fetch_result.html
+debug_final_page.html
+debug_no_login_button.png
+debug_raw_ajax.txt
+debug_swrbest.html
+error_critical.png
+
+# Daten-Dateien (Ergebnisse)
+*.csv
+bestzeiten.csv
+bestzeiten_pure.csv
+bestzeiten_turbo.csv
+
+# Protokolle und Blueprints
+protocol_blueprint.json
+
+# Zugangsdaten (Lokale Konfiguration)
+.env
+.env.local
