@@ -1,6 +1,7 @@
 # IDE-Dateien
 .idea/
 .vscode/
+.junie/
 __pycache__/
 *.py[cod]
 *$py.class
