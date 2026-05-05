@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webclub-crawler"
+version = "0.1.0"
+description = "Crawler for exporting WebClub best-times data."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+    "selenium>=4.20",
+    "webdriver-manager>=4.0",
+]
+
+[project.scripts]
+webclub-crawler = "webclub_crawler.cli:main"
+webclub-crawler-requests = "webclub_crawler.cli:requests_main"
+webclub-crawler-selenium = "webclub_crawler.cli:selenium_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
